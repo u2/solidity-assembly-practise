@@ -11,3 +11,6 @@ miner.stop();
 
 result = Experiment.getinfo.call('123456', 10, { from: web3.eth.accounts[0] });
 console.log('result: ', result[0], result[1].toNumber(), result[2].toNumber(), result[3].toNumber());
+
+// tx 0xbd44cf54d38809d9dea6f8a561ba8e0c029885b7a782997015090f8b6825e976
+// result:  abc 100 10 22
