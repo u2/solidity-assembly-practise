@@ -39,6 +39,4 @@ contract Adder {
             =: sum
         }
     }
-
-    
 }
