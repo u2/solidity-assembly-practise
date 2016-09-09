@@ -88,4 +88,28 @@ contract C {
             offset := calldataload(lenAddr)
         }
     }
+
+    function f9(uint a) constant returns (bool stackSame, bool txDataSame) {
+        // We can work with 'a' in three ways - the variable, the stack
+        // item, or read from calldata.
+        assembly {
+            let aFromStack := 0
+            // Stack: [..., a, stackSame, txDataSame, aFromStack]
+            dup4 =: aFromStack // set aFromStack to 'a'
+            let aFromTxData := calldataload(4)
+            stackSame := eq(aFromStack, a)
+            txDataSame := eq(aFromTxData, a)
+        }
+    }
+
+    function f10(uint[] arr) constant returns (uint) {
+        return _g();
+    }
+
+    function _g() constant internal returns (uint x) {
+        assembly {
+            x := calldataload(4) // Will read the '0x20' from array call-data every time, even though `_g` has no params.
+        }
+    }
+
 }

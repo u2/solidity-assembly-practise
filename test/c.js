@@ -42,3 +42,14 @@ result = C.f8.call([1,3,5,7],{ from: web3.eth.accounts[0] })
 console.log('f8 result: ', result.toNumber());
 miner.start(2);
 miner.stop();
+
+result = C.f9.call(7,{ from: web3.eth.accounts[0] })
+console.log('f9 result: ', result[0], result[1]);
+miner.start(2);
+miner.stop();
+
+result = C.f10.call([11],{ from: web3.eth.accounts[0] })
+console.log('f10 result: ', result.toNumber());
+miner.start(2);
+miner.stop();
+

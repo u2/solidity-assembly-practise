@@ -38,6 +38,7 @@ end
 
 
 def javascript_file_name(file_name)
+  file_name = file_name.split('/')[-1]
   file_name.split('.')[0] + '_compiled.js'
 end
 

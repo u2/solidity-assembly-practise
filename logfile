@@ -2244,3 +2244,361 @@ I0908 17:51:06.130689 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3
 I0908 17:51:06.130982 miner/worker.go:573] commit new work on block 1270 with 0 txs & 0 uncles. Took 249.965µs
 I0908 17:51:06.216543 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
 I0908 17:51:06.216811 miner/worker.go:573] commit new work on block 1270 with 0 txs & 0 uncles. Took 227.364µs
+I0908 18:33:16.302671 node/node.go:383] HTTP endpoint closed: http://localhost:8545
+I0908 18:33:16.306117 node/node.go:328] IPC endpoint closed: data/geth.ipc
+I0908 18:33:16.306164 core/blockchain.go:565] Chain manager stopped
+I0908 18:33:16.306178 eth/handler.go:224] Stopping ethereum protocol handler...
+I0908 18:33:16.306205 eth/handler.go:245] Ethereum protocol handler stopped
+I0908 18:33:16.306225 core/tx_pool.go:163] Transaction pool stopped
+I0908 18:33:16.306250 eth/backend.go:500] Automatic pregeneration of ethash DAG OFF (ethash dir: /Users/u2/.ethash)
+I0908 18:33:16.308380 ethdb/database.go:169] closed db:data/chaindata
+I0908 18:33:16.311457 ethdb/database.go:169] closed db:data/dapp
+I0908 18:38:19.363383 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0908 18:38:19.388096 ethdb/database.go:169] closed db:data/chaindata
+I0908 18:38:19.391797 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0908 18:38:19.436069 ethdb/database.go:82] Alloted 16MB cache and 16 file handles to data/dapp
+I0908 18:38:19.445105 eth/backend.go:172] Protocol Versions: [63 62], Network Id: 31415926
+I0908 18:38:19.445208 eth/backend.go:201] Blockchain DB Version: 3
+I0908 18:38:19.445928 core/blockchain.go:206] Last header: #1269 [0819b477…] TD=228115236
+I0908 18:38:19.445946 core/blockchain.go:207] Last block: #1269 [0819b477…] TD=228115236
+I0908 18:38:19.445954 core/blockchain.go:208] Fast block: #1269 [0819b477…] TD=228115236
+I0908 18:38:19.447915 p2p/server.go:313] Starting Server
+I0908 18:38:19.448041 p2p/server.go:556] Listening on [::]:30303
+I0908 18:38:19.449113 node/node.go:296] IPC endpoint opened: data/geth.ipc
+I0908 18:38:19.451045 node/node.go:366] HTTP endpoint opened: http://localhost:8545
+I0908 18:38:23.836682 cmd/geth/accountcmd.go:189] Unlocked account 3ae88fe370c39384fc16da2c9e768cf5d2495b48
+I0908 18:38:23.950783 eth/api.go:1191] Tx(0xbefcd8767ec8ce50f9808867f032fae53370fbc9ba3ab49451e015a293762355) created: 0x899debdbac01f8f17d86c90d8289813d9cc5122c
+I0908 18:38:23.952763 eth/backend.go:454] Automatic pregeneration of ethash DAG ON (ethash dir: /Users/u2/.ethash)
+I0908 18:38:23.952770 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0908 18:38:23.953315 miner/worker.go:573] commit new work on block 1270 with 1 txs & 0 uncles. Took 490.644µs
+I0908 18:38:23.953371 ethash.go:259] Generating DAG for epoch 0 (size 1073739904) (0000000000000000000000000000000000000000000000000000000000000000)
+I0908 18:38:23.953924 eth/backend.go:461] checking DAG (ethash dir: /Users/u2/.ethash)
+I0908 18:38:24.634480 ethash.go:276] Done generating DAG for epoch 0, it took 681.104312ms
+I0908 18:38:29.739604 miner/worker.go:339] 🔨  Mined block (#1270 / 366f5c43). Wait 5 blocks for confirmation
+I0908 18:38:29.739900 miner/worker.go:573] commit new work on block 1271 with 0 txs & 0 uncles. Took 196.926µs
+I0908 18:38:29.743424 miner/worker.go:573] commit new work on block 1271 with 0 txs & 0 uncles. Took 3.420795ms
+I0908 18:38:29.995738 miner/worker.go:339] 🔨  Mined block (#1271 / aac01486). Wait 5 blocks for confirmation
+I0908 18:38:29.996090 miner/worker.go:573] commit new work on block 1272 with 0 txs & 0 uncles. Took 317.766µs
+I0908 18:38:29.996348 miner/worker.go:573] commit new work on block 1272 with 0 txs & 0 uncles. Took 125.079µs
+I0908 18:38:30.635223 miner/worker.go:339] 🔨  Mined block (#1272 / f1595afb). Wait 5 blocks for confirmation
+I0908 18:38:30.635311 miner/worker.go:573] commit new work on block 1273 with 0 txs & 0 uncles. Took 204.032µs
+I0908 18:38:30.635448 miner/worker.go:573] commit new work on block 1273 with 0 txs & 0 uncles. Took 96.915µs
+I0908 18:38:33.343765 miner/worker.go:339] 🔨  Mined block (#1273 / e6eb66f3). Wait 5 blocks for confirmation
+I0908 18:38:33.343828 miner/worker.go:573] commit new work on block 1274 with 0 txs & 0 uncles. Took 232.577µs
+I0908 18:38:33.343971 miner/worker.go:573] commit new work on block 1274 with 0 txs & 0 uncles. Took 108.511µs
+I0908 18:38:33.729750 miner/worker.go:339] 🔨  Mined block (#1274 / ef70d894). Wait 5 blocks for confirmation
+I0908 18:38:33.729952 miner/worker.go:573] commit new work on block 1275 with 0 txs & 0 uncles. Took 186.598µs
+I0908 18:38:33.730108 miner/worker.go:573] commit new work on block 1275 with 0 txs & 0 uncles. Took 123.862µs
+I0908 18:38:34.018243 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0908 18:38:34.018531 miner/worker.go:573] commit new work on block 1275 with 0 txs & 0 uncles. Took 245.436µs
+I0908 18:38:35.499764 miner/worker.go:339] 🔨  Mined block (#1275 / c211225b). Wait 5 blocks for confirmation
+I0908 18:38:35.500074 miner/worker.go:573] commit new work on block 1276 with 0 txs & 0 uncles. Took 278.099µs
+I0908 18:38:35.500108 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1270
+I0908 18:38:35.500310 miner/worker.go:573] commit new work on block 1276 with 0 txs & 0 uncles. Took 152.32µs
+I0908 18:38:41.531002 miner/worker.go:339] 🔨  Mined block (#1276 / 3b557e37). Wait 5 blocks for confirmation
+I0908 18:38:41.531214 miner/worker.go:573] commit new work on block 1277 with 0 txs & 0 uncles. Took 204.57µs
+I0908 18:38:41.531251 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1271
+I0908 18:38:41.531383 miner/worker.go:573] commit new work on block 1277 with 0 txs & 0 uncles. Took 111.559µs
+I0908 18:38:42.485377 miner/worker.go:339] 🔨  Mined block (#1277 / 2c34ec34). Wait 5 blocks for confirmation
+I0908 18:38:42.485576 miner/worker.go:573] commit new work on block 1278 with 0 txs & 0 uncles. Took 168.827µs
+I0908 18:38:42.485602 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1272
+I0908 18:38:42.485746 miner/worker.go:573] commit new work on block 1278 with 0 txs & 0 uncles. Took 122.487µs
+I0908 18:38:42.961011 miner/worker.go:339] 🔨  Mined block (#1278 / 3f25df12). Wait 5 blocks for confirmation
+I0908 18:38:42.961242 miner/worker.go:573] commit new work on block 1279 with 0 txs & 0 uncles. Took 211.258µs
+I0908 18:38:42.961279 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1273
+I0908 18:38:42.961415 miner/worker.go:573] commit new work on block 1279 with 0 txs & 0 uncles. Took 112.082µs
+I0908 18:38:43.024203 miner/worker.go:339] 🔨  Mined block (#1279 / 2ca625ba). Wait 5 blocks for confirmation
+I0908 18:38:43.024391 miner/worker.go:573] commit new work on block 1280 with 0 txs & 0 uncles. Took 153.898µs
+I0908 18:38:43.024422 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1274
+I0908 18:38:43.024627 miner/worker.go:573] commit new work on block 1280 with 0 txs & 0 uncles. Took 181.451µs
+Fatal: Failed to start the JavaScript console: test/adder.js: TypeError: Cannot access member 'call' of undefined
+    at test/adder.js:1:10
+
+I0909 10:00:20.349755 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0909 10:00:20.377736 ethdb/database.go:169] closed db:data/chaindata
+I0909 10:00:20.380417 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0909 10:00:20.419331 ethdb/database.go:82] Alloted 16MB cache and 16 file handles to data/dapp
+I0909 10:00:20.426739 eth/backend.go:172] Protocol Versions: [63 62], Network Id: 31415926
+I0909 10:00:20.426844 eth/backend.go:201] Blockchain DB Version: 3
+I0909 10:00:20.429255 core/blockchain.go:206] Last header: #1279 [2ca625ba…] TD=230453139
+I0909 10:00:20.429294 core/blockchain.go:207] Last block: #1279 [2ca625ba…] TD=230453139
+I0909 10:00:20.429308 core/blockchain.go:208] Fast block: #1279 [2ca625ba…] TD=230453139
+I0909 10:00:20.431905 p2p/server.go:313] Starting Server
+I0909 10:00:20.432051 p2p/server.go:556] Listening on [::]:30303
+I0909 10:00:20.434037 node/node.go:296] IPC endpoint opened: data/geth.ipc
+I0909 10:00:20.435826 node/node.go:366] HTTP endpoint opened: http://localhost:8545
+I0909 10:00:24.710191 cmd/geth/accountcmd.go:189] Unlocked account 3ae88fe370c39384fc16da2c9e768cf5d2495b48
+I0909 10:00:24.828833 eth/api.go:1191] Tx(0xfca05d10ac8a3546ed939f2726f938490d99b4e60fa85c5cc23f2c446b9a026a) created: 0x545c81d6d9b28d038042c539b8f1fe0e4a25075d
+I0909 10:00:24.831521 eth/backend.go:454] Automatic pregeneration of ethash DAG ON (ethash dir: /Users/u2/.ethash)
+I0909 10:00:24.831531 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:24.831582 eth/backend.go:461] checking DAG (ethash dir: /Users/u2/.ethash)
+I0909 10:00:24.832099 miner/worker.go:573] commit new work on block 1280 with 1 txs & 0 uncles. Took 534.58µs
+I0909 10:00:24.832174 ethash.go:259] Generating DAG for epoch 0 (size 1073739904) (0000000000000000000000000000000000000000000000000000000000000000)
+I0909 10:00:25.549565 ethash.go:276] Done generating DAG for epoch 0, it took 717.389759ms
+I0909 10:00:36.649868 miner/worker.go:339] 🔨  Mined block (#1280 / 00c9b92f). Wait 5 blocks for confirmation
+I0909 10:00:36.650368 miner/worker.go:573] commit new work on block 1281 with 0 txs & 0 uncles. Took 424.133µs
+I0909 10:00:36.651501 miner/worker.go:573] commit new work on block 1281 with 0 txs & 0 uncles. Took 175.561µs
+I0909 10:00:36.672344 miner/worker.go:339] 🔨  Mined stale block (#1280 / 619cb408). 
+I0909 10:00:36.673166 miner/worker.go:573] commit new work on block 1281 with 0 txs & 0 uncles. Took 304.287µs
+I0909 10:00:40.741810 miner/worker.go:339] 🔨  Mined block (#1281 / b47d8c74). Wait 5 blocks for confirmation
+I0909 10:00:40.742057 miner/worker.go:573] commit new work on block 1282 with 0 txs & 0 uncles. Took 249.155µs
+I0909 10:00:40.742258 miner/worker.go:573] commit new work on block 1282 with 0 txs & 0 uncles. Took 139.399µs
+I0909 10:00:40.829834 miner/worker.go:339] 🔨  Mined block (#1282 / 833c6b7b). Wait 5 blocks for confirmation
+I0909 10:00:40.829984 miner/worker.go:573] commit new work on block 1283 with 0 txs & 0 uncles. Took 152.94µs
+I0909 10:00:40.830134 miner/worker.go:573] commit new work on block 1283 with 0 txs & 0 uncles. Took 112.965µs
+I0909 10:00:40.915650 miner/worker.go:339] 🔨  Mined block (#1283 / 33788997). Wait 5 blocks for confirmation
+I0909 10:00:40.915816 miner/worker.go:573] commit new work on block 1284 with 0 txs & 0 uncles. Took 136.198µs
+I0909 10:00:40.915929 miner/worker.go:573] commit new work on block 1284 with 0 txs & 0 uncles. Took 85.713µs
+I0909 10:00:41.275305 miner/worker.go:339] 🔨  Mined block (#1284 / 78782d8e). Wait 5 blocks for confirmation
+I0909 10:00:41.275506 miner/worker.go:573] commit new work on block 1285 with 0 txs & 0 uncles. Took 167.683µs
+I0909 10:00:41.275725 miner/worker.go:573] commit new work on block 1285 with 0 txs & 0 uncles. Took 136.843µs
+I0909 10:00:41.915566 eth/api.go:1191] Tx(0x86e47c5c0c4054eeba70fb44eef60d02a7c71f3eba96691676143679e754c2ae) created: 0xc1bd84e97cac62cfc2a2b2d24e1a2d945e671c4a
+I0909 10:00:41.917769 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:41.918391 miner/worker.go:573] commit new work on block 1285 with 1 txs & 0 uncles. Took 557.514µs
+I0909 10:00:42.641968 miner/worker.go:339] 🔨  Mined block (#1285 / 40eb160f). Wait 5 blocks for confirmation
+I0909 10:00:42.642177 miner/worker.go:573] commit new work on block 1286 with 0 txs & 0 uncles. Took 207.313µs
+I0909 10:00:42.642217 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1280
+I0909 10:00:42.642355 miner/worker.go:573] commit new work on block 1286 with 0 txs & 0 uncles. Took 116.944µs
+I0909 10:00:47.324912 miner/worker.go:339] 🔨  Mined block (#1286 / f36ead24). Wait 5 blocks for confirmation
+I0909 10:00:47.325179 miner/worker.go:573] commit new work on block 1287 with 0 txs & 0 uncles. Took 164.655µs
+I0909 10:00:47.325209 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1281
+I0909 10:00:47.325353 miner/worker.go:573] commit new work on block 1287 with 0 txs & 0 uncles. Took 123.867µs
+I0909 10:00:48.852158 miner/worker.go:339] 🔨  Mined block (#1287 / 25b3f654). Wait 5 blocks for confirmation
+I0909 10:00:48.852350 miner/worker.go:573] commit new work on block 1288 with 0 txs & 0 uncles. Took 187.289µs
+I0909 10:00:48.852383 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1282
+I0909 10:00:48.852554 miner/worker.go:573] commit new work on block 1288 with 0 txs & 0 uncles. Took 148.83µs
+I0909 10:00:48.892957 miner/worker.go:339] 🔨  Mined block (#1288 / 32e76ee4). Wait 5 blocks for confirmation
+I0909 10:00:48.893150 miner/worker.go:573] commit new work on block 1289 with 0 txs & 0 uncles. Took 157.131µs
+I0909 10:00:48.893178 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1283
+I0909 10:00:48.893351 miner/worker.go:573] commit new work on block 1289 with 0 txs & 0 uncles. Took 117.637µs
+I0909 10:00:49.162628 miner/worker.go:339] 🔨  Mined block (#1289 / 4c5c329c). Wait 5 blocks for confirmation
+I0909 10:00:49.162767 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 139.349µs
+I0909 10:00:49.162798 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1284
+I0909 10:00:49.162931 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 111.56µs
+I0909 10:00:50.015636 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.015940 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 253.752µs
+I0909 10:00:50.055210 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.055494 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 236.318µs
+I0909 10:00:50.122425 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.122776 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 298.206µs
+I0909 10:00:50.166511 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.166793 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 235.26µs
+I0909 10:00:50.221033 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.221387 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 301.947µs
+I0909 10:00:50.270832 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.271356 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 435.862µs
+I0909 10:00:50.322165 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.322569 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 361.242µs
+I0909 10:00:50.375719 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.376009 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 248.108µs
+I0909 10:00:50.442037 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.442341 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 254.448µs
+I0909 10:00:50.503524 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.503773 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 212.376µs
+I0909 10:00:50.576977 miner/miner.go:119] Starting mining operation (CPU=2 TOT=5)
+I0909 10:00:50.577254 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 236.459µs
+I0909 10:00:50.633913 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.634169 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 211.564µs
+I0909 10:00:50.691164 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.691793 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 580.336µs
+I0909 10:00:50.789103 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.789363 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 214.543µs
+I0909 10:00:50.834528 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:00:50.834786 miner/worker.go:573] commit new work on block 1290 with 0 txs & 0 uncles. Took 217.408µs
+Fatal: Failed to start the JavaScript console: test/c.js: TypeError: Cannot access member 'toNumber' of undefined
+    at test/c.js:52:29
+
+I0909 10:01:12.547657 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0909 10:01:12.558032 ethdb/database.go:169] closed db:data/chaindata
+I0909 10:01:12.560128 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0909 10:01:12.602211 ethdb/database.go:82] Alloted 16MB cache and 16 file handles to data/dapp
+I0909 10:01:12.607811 eth/backend.go:172] Protocol Versions: [63 62], Network Id: 31415926
+I0909 10:01:12.607907 eth/backend.go:201] Blockchain DB Version: 3
+I0909 10:01:12.608707 core/blockchain.go:206] Last header: #1289 [4c5c329c…] TD=232800159
+I0909 10:01:12.608727 core/blockchain.go:207] Last block: #1289 [4c5c329c…] TD=232800159
+I0909 10:01:12.608739 core/blockchain.go:208] Fast block: #1289 [4c5c329c…] TD=232800159
+I0909 10:01:12.610657 p2p/server.go:313] Starting Server
+I0909 10:01:12.610791 p2p/server.go:556] Listening on [::]:30303
+I0909 10:01:12.612409 node/node.go:296] IPC endpoint opened: data/geth.ipc
+I0909 10:01:12.614342 node/node.go:366] HTTP endpoint opened: http://localhost:8545
+I0909 10:01:16.572372 cmd/geth/accountcmd.go:189] Unlocked account 3ae88fe370c39384fc16da2c9e768cf5d2495b48
+I0909 10:01:16.680750 eth/api.go:1191] Tx(0xbb52a5f2ae08cafd92cf975e6fddaf0e2b79d8e8ee8560f451420ae9b0f59e25) created: 0xa9a0d0143a9e7de7b3dd8a34b25b5237b3ece407
+I0909 10:01:16.683221 eth/backend.go:454] Automatic pregeneration of ethash DAG ON (ethash dir: /Users/u2/.ethash)
+I0909 10:01:16.683226 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:16.683750 miner/worker.go:573] commit new work on block 1290 with 1 txs & 0 uncles. Took 436.465µs
+I0909 10:01:16.683809 ethash.go:259] Generating DAG for epoch 0 (size 1073739904) (0000000000000000000000000000000000000000000000000000000000000000)
+I0909 10:01:16.685449 eth/backend.go:461] checking DAG (ethash dir: /Users/u2/.ethash)
+I0909 10:01:17.373959 ethash.go:276] Done generating DAG for epoch 0, it took 690.144543ms
+I0909 10:01:19.766393 miner/worker.go:339] 🔨  Mined block (#1290 / 3553506f). Wait 5 blocks for confirmation
+I0909 10:01:19.766524 miner/worker.go:573] commit new work on block 1291 with 0 txs & 0 uncles. Took 287.746µs
+I0909 10:01:19.766675 miner/worker.go:573] commit new work on block 1291 with 0 txs & 0 uncles. Took 120.293µs
+I0909 10:01:19.770791 miner/worker.go:339] 🔨  Mined stale block (#1290 / aa1cd517). 
+I0909 10:01:19.770941 miner/worker.go:573] commit new work on block 1291 with 0 txs & 0 uncles. Took 117.87µs
+I0909 10:01:19.812382 miner/worker.go:339] 🔨  Mined block (#1291 / 7b32c999). Wait 5 blocks for confirmation
+I0909 10:01:19.812544 miner/worker.go:573] commit new work on block 1292 with 0 txs & 0 uncles. Took 130.978µs
+I0909 10:01:19.812991 miner/worker.go:573] commit new work on block 1292 with 0 txs & 0 uncles. Took 107.564µs
+I0909 10:01:20.704129 miner/worker.go:573] commit new work on block 1293 with 0 txs & 0 uncles. Took 279.112µs
+I0909 10:01:20.705181 miner/worker.go:339] 🔨  Mined block (#1292 / ae0f47fe). Wait 5 blocks for confirmation
+I0909 10:01:20.705690 miner/worker.go:573] commit new work on block 1293 with 0 txs & 0 uncles. Took 157.056µs
+I0909 10:01:21.052736 miner/worker.go:339] 🔨  Mined block (#1293 / 443a2006). Wait 5 blocks for confirmation
+I0909 10:01:21.052838 miner/worker.go:573] commit new work on block 1294 with 0 txs & 0 uncles. Took 202.964µs
+I0909 10:01:21.052988 miner/worker.go:573] commit new work on block 1294 with 0 txs & 0 uncles. Took 114.08µs
+I0909 10:01:26.305272 miner/worker.go:339] 🔨  Mined block (#1294 / bec653fa). Wait 5 blocks for confirmation
+I0909 10:01:26.305500 miner/worker.go:573] commit new work on block 1295 with 0 txs & 0 uncles. Took 250.54µs
+I0909 10:01:26.305753 miner/worker.go:573] commit new work on block 1295 with 0 txs & 0 uncles. Took 219.766µs
+I0909 10:01:26.735646 eth/api.go:1191] Tx(0xf52bab74dcd61c323802dee84aa19f842310e6e4ebdb5d44d6f06627c3d043f2) created: 0xc03d7e17112cc79bb607a2b735d78feb05975bc2
+I0909 10:01:26.737357 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:26.737802 miner/worker.go:573] commit new work on block 1295 with 1 txs & 0 uncles. Took 401.457µs
+I0909 10:01:27.944663 miner/worker.go:339] 🔨  Mined block (#1295 / 221d7cc4). Wait 5 blocks for confirmation
+I0909 10:01:27.944881 miner/worker.go:573] commit new work on block 1296 with 0 txs & 0 uncles. Took 189.304µs
+I0909 10:01:27.945252 miner/worker.go:573] commit new work on block 1296 with 0 txs & 0 uncles. Took 328.127µs
+I0909 10:01:33.572802 miner/worker.go:339] 🔨  Mined block (#1296 / f0fe6e6f). Wait 5 blocks for confirmation
+I0909 10:01:33.573057 miner/worker.go:573] commit new work on block 1297 with 0 txs & 0 uncles. Took 243.846µs
+I0909 10:01:33.573085 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1291
+I0909 10:01:33.573225 miner/worker.go:573] commit new work on block 1297 with 0 txs & 0 uncles. Took 119.567µs
+I0909 10:01:33.834377 miner/worker.go:339] 🔨  Mined block (#1297 / 23f30e01). Wait 5 blocks for confirmation
+I0909 10:01:33.834545 miner/worker.go:573] commit new work on block 1298 with 0 txs & 0 uncles. Took 137.063µs
+I0909 10:01:33.834570 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1292
+I0909 10:01:33.834687 miner/worker.go:573] commit new work on block 1298 with 0 txs & 0 uncles. Took 94.663µs
+I0909 10:01:33.855883 miner/worker.go:339] 🔨  Mined block (#1298 / db5d0831). Wait 5 blocks for confirmation
+I0909 10:01:33.856104 miner/worker.go:573] commit new work on block 1299 with 0 txs & 0 uncles. Took 193.081µs
+I0909 10:01:33.856134 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1293
+I0909 10:01:33.856265 miner/worker.go:573] commit new work on block 1299 with 0 txs & 0 uncles. Took 108.707µs
+I0909 10:01:36.664620 miner/worker.go:339] 🔨  Mined block (#1299 / ca1cf2ff). Wait 5 blocks for confirmation
+I0909 10:01:36.664839 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 259.776µs
+I0909 10:01:36.664870 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1294
+I0909 10:01:36.665009 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 119.647µs
+I0909 10:01:36.841975 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:36.842283 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 255.415µs
+I0909 10:01:36.886997 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:36.890652 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 3.073976ms
+I0909 10:01:36.966218 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:36.966478 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 218.797µs
+I0909 10:01:37.006222 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.008176 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 1.818793ms
+I0909 10:01:37.075481 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.075754 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 226.824µs
+I0909 10:01:37.131104 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.131878 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 730.46µs
+I0909 10:01:37.233568 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.233862 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 246.147µs
+I0909 10:01:37.371817 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.372086 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 226.046µs
+I0909 10:01:37.459086 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.459811 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 284.455µs
+I0909 10:01:37.540760 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.541040 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 236.93µs
+I0909 10:01:37.595412 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.595757 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 287.529µs
+I0909 10:01:37.676187 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.676499 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 263.39µs
+I0909 10:01:37.750023 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.750319 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 251.75µs
+I0909 10:01:37.835557 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.835818 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 216.15µs
+I0909 10:01:37.907617 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:37.907883 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 221.281µs
+I0909 10:01:38.035991 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:01:38.036268 miner/worker.go:573] commit new work on block 1300 with 0 txs & 0 uncles. Took 227.615µs
+I0909 10:05:30.341786 node/node.go:383] HTTP endpoint closed: http://localhost:8545
+I0909 10:05:30.344124 node/node.go:328] IPC endpoint closed: data/geth.ipc
+I0909 10:05:30.344161 core/blockchain.go:565] Chain manager stopped
+I0909 10:05:30.344169 eth/handler.go:224] Stopping ethereum protocol handler...
+I0909 10:05:30.344187 eth/handler.go:245] Ethereum protocol handler stopped
+I0909 10:05:30.344200 core/tx_pool.go:163] Transaction pool stopped
+I0909 10:05:30.344219 eth/backend.go:500] Automatic pregeneration of ethash DAG OFF (ethash dir: /Users/u2/.ethash)
+I0909 10:05:30.344549 ethdb/database.go:169] closed db:data/chaindata
+I0909 10:05:30.346596 ethdb/database.go:169] closed db:data/dapp
+I0909 10:17:03.384550 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0909 10:17:03.401501 ethdb/database.go:169] closed db:data/chaindata
+I0909 10:17:03.405337 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to data/chaindata
+I0909 10:17:03.447523 ethdb/database.go:82] Alloted 16MB cache and 16 file handles to data/dapp
+I0909 10:17:03.460320 eth/backend.go:172] Protocol Versions: [63 62], Network Id: 31415926
+I0909 10:17:03.460449 eth/backend.go:201] Blockchain DB Version: 3
+I0909 10:17:03.461471 core/blockchain.go:206] Last header: #1299 [ca1cf2ff…] TD=235156314
+I0909 10:17:03.461494 core/blockchain.go:207] Last block: #1299 [ca1cf2ff…] TD=235156314
+I0909 10:17:03.461506 core/blockchain.go:208] Fast block: #1299 [ca1cf2ff…] TD=235156314
+I0909 10:17:03.463428 p2p/server.go:313] Starting Server
+I0909 10:17:03.463584 p2p/server.go:556] Listening on [::]:30303
+I0909 10:17:03.466812 node/node.go:296] IPC endpoint opened: data/geth.ipc
+I0909 10:17:03.468857 node/node.go:366] HTTP endpoint opened: http://localhost:8545
+I0909 10:17:07.918273 cmd/geth/accountcmd.go:189] Unlocked account 3ae88fe370c39384fc16da2c9e768cf5d2495b48
+I0909 10:17:08.027620 eth/api.go:1191] Tx(0xb27ad835a5e80fdb1a39d1a5481bcf102c216f09bf7ec84b3776034d227813ab) created: 0x334b214c44205f2529e474cef11aa3a2cdbeb30e
+I0909 10:17:08.029851 eth/backend.go:454] Automatic pregeneration of ethash DAG ON (ethash dir: /Users/u2/.ethash)
+I0909 10:17:08.029871 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:08.029919 eth/backend.go:461] checking DAG (ethash dir: /Users/u2/.ethash)
+I0909 10:17:08.030329 miner/worker.go:573] commit new work on block 1300 with 1 txs & 0 uncles. Took 415.85µs
+I0909 10:17:08.030386 ethash.go:259] Generating DAG for epoch 0 (size 1073739904) (0000000000000000000000000000000000000000000000000000000000000000)
+I0909 10:17:08.718466 ethash.go:276] Done generating DAG for epoch 0, it took 688.078018ms
+I0909 10:17:10.395398 miner/worker.go:573] commit new work on block 1301 with 0 txs & 0 uncles. Took 265.146µs
+I0909 10:17:10.395842 miner/worker.go:339] 🔨  Mined block (#1300 / ccca937f). Wait 5 blocks for confirmation
+I0909 10:17:10.397706 miner/worker.go:573] commit new work on block 1301 with 0 txs & 0 uncles. Took 391.648µs
+I0909 10:17:11.837507 miner/worker.go:339] 🔨  Mined block (#1301 / d81f11bb). Wait 5 blocks for confirmation
+I0909 10:17:11.837715 miner/worker.go:573] commit new work on block 1302 with 0 txs & 0 uncles. Took 178.939µs
+I0909 10:17:11.837862 miner/worker.go:573] commit new work on block 1302 with 0 txs & 0 uncles. Took 109.451µs
+I0909 10:17:11.970393 miner/worker.go:339] 🔨  Mined block (#1302 / ad000893). Wait 5 blocks for confirmation
+I0909 10:17:11.970579 miner/worker.go:573] commit new work on block 1303 with 0 txs & 0 uncles. Took 161.604µs
+I0909 10:17:11.970720 miner/worker.go:573] commit new work on block 1303 with 0 txs & 0 uncles. Took 108.046µs
+I0909 10:17:13.367154 miner/worker.go:339] 🔨  Mined block (#1303 / a945263d). Wait 5 blocks for confirmation
+I0909 10:17:13.367351 miner/worker.go:573] commit new work on block 1304 with 0 txs & 0 uncles. Took 204.815µs
+I0909 10:17:13.367535 miner/worker.go:573] commit new work on block 1304 with 0 txs & 0 uncles. Took 147.847µs
+I0909 10:17:13.908587 miner/worker.go:339] 🔨  Mined block (#1304 / ce646147). Wait 5 blocks for confirmation
+I0909 10:17:13.908810 miner/worker.go:573] commit new work on block 1305 with 0 txs & 0 uncles. Took 200.575µs
+I0909 10:17:13.909011 miner/worker.go:573] commit new work on block 1305 with 0 txs & 0 uncles. Took 150.891µs
+I0909 10:17:14.061446 eth/api.go:1191] Tx(0xbafffcaef1253f9fa567c8e27eeda29680ee8c225e66c764105ac0b28b05e5b0) created: 0xdef64ebb0d4eb6f371a98f8b5dc59f71a8f788fe
+I0909 10:17:14.063222 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:14.064837 miner/worker.go:573] commit new work on block 1305 with 1 txs & 0 uncles. Took 1.566156ms
+I0909 10:17:16.860459 miner/worker.go:339] 🔨  Mined block (#1305 / d4693475). Wait 5 blocks for confirmation
+I0909 10:17:16.861141 miner/worker.go:573] commit new work on block 1306 with 0 txs & 0 uncles. Took 645.314µs
+I0909 10:17:16.861328 miner/worker.go:573] commit new work on block 1306 with 0 txs & 0 uncles. Took 148.527µs
+I0909 10:17:21.082532 miner/worker.go:339] 🔨  Mined block (#1306 / 0c1555a8). Wait 5 blocks for confirmation
+I0909 10:17:21.082773 miner/worker.go:573] commit new work on block 1307 with 0 txs & 0 uncles. Took 222.422µs
+I0909 10:17:21.082805 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1301
+I0909 10:17:21.082997 miner/worker.go:573] commit new work on block 1307 with 0 txs & 0 uncles. Took 166.557µs
+I0909 10:17:22.410453 miner/worker.go:339] 🔨  Mined block (#1307 / 2c5e4172). Wait 5 blocks for confirmation
+I0909 10:17:22.410649 miner/worker.go:573] commit new work on block 1308 with 0 txs & 0 uncles. Took 222.92µs
+I0909 10:17:22.410681 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1302
+I0909 10:17:22.410895 miner/worker.go:573] commit new work on block 1308 with 0 txs & 0 uncles. Took 189.712µs
+I0909 10:17:23.520372 miner/worker.go:339] 🔨  Mined block (#1308 / 0a549937). Wait 5 blocks for confirmation
+I0909 10:17:23.520418 miner/worker.go:573] commit new work on block 1309 with 0 txs & 0 uncles. Took 186.108µs
+I0909 10:17:23.520470 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1303
+I0909 10:17:23.520800 miner/worker.go:573] commit new work on block 1309 with 0 txs & 0 uncles. Took 119.884µs
+I0909 10:17:24.900602 miner/worker.go:339] 🔨  Mined block (#1309 / 5f6e1a88). Wait 5 blocks for confirmation
+I0909 10:17:24.900895 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 282.553µs
+I0909 10:17:24.900934 miner/worker.go:435] 🔨 🔗  Mined 5 blocks back: block #1304
+I0909 10:17:24.901162 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 173.201µs
+I0909 10:17:25.156956 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.157179 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 184.966µs
+I0909 10:17:25.188104 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.188318 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 176.212µs
+I0909 10:17:25.236999 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.237246 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 208.993µs
+I0909 10:17:25.270234 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.270531 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 249.595µs
+I0909 10:17:25.316697 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.317508 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 694.711µs
+I0909 10:17:25.365434 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.365707 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 223.857µs
+I0909 10:17:25.406758 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.407053 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 245.37µs
+I0909 10:17:25.449827 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.450065 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 197.966µs
+I0909 10:17:25.497319 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.497545 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 183.431µs
+I0909 10:17:25.543546 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.543855 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 260.605µs
+I0909 10:17:25.588980 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.589250 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 224.24µs
+I0909 10:17:25.641412 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.641694 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 230.609µs
+I0909 10:17:25.688913 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.689154 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 189.336µs
+I0909 10:17:25.766051 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.766345 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 250.268µs
+I0909 10:17:25.797094 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.797345 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 214.63µs
+I0909 10:17:25.845292 miner/miner.go:119] Starting mining operation (CPU=2 TOT=3)
+I0909 10:17:25.845593 miner/worker.go:573] commit new work on block 1310 with 0 txs & 0 uncles. Took 259.24µs
+Fatal: Failed to start the JavaScript console: test/multipier.js: ReferenceError: 'Multiplier' is not defined
+    at test/multipier.js:1:10
+
